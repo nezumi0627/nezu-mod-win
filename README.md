@@ -3,7 +3,7 @@
 <div align="center">
   <img src="docs/assets/logo.svg" alt="Nezu Mod Collection" width="800">
   
-  <h1>Windows体験をより快適にするカスタマイズツール</h1>
+  <h1>Windows体験をより快適にするMOD's</h1>
   <h3>モダンで美しいデザインのWindows拡張コレクション</h3>
 
   <table>
