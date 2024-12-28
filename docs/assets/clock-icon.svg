@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景円 -->
+  <circle cx="40" cy="40" r="36" fill="#00a2ed" fill-opacity="0.1" stroke="#00a2ed" stroke-width="2"/>
+  
+  <!-- 時計の文字盤 -->
+  <circle cx="40" cy="40" r="32" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.2"/>
+  
+  <!-- 時計の針 -->
+  <g transform="translate(40, 40)">
+    <!-- 時針 -->
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#ffffff" stroke-width="2" transform="rotate(45)"/>
+    <!-- 分針 -->
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#ffffff" stroke-width="2" transform="rotate(180)"/>
+    <!-- 秒針 -->
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#00a2ed" stroke-width="1" transform="rotate(90)"/>
+    <!-- 中心点 -->
+    <circle cx="0" cy="0" r="2" fill="#00a2ed"/>
+  </g>
+  
+  <!-- 時間のマーカー -->
+  <g transform="translate(40, 40)">
+    <line x1="0" y1="-28" x2="0" y2="-32" stroke="#ffffff" stroke-width="2" transform="rotate(0)"/>
+    <line x1="0" y1="-28" x2="0" y2="-32" stroke="#ffffff" stroke-width="2" transform="rotate(90)"/>
+    <line x1="0" y1="-28" x2="0" y2="-32" stroke="#ffffff" stroke-width="2" transform="rotate(180)"/>
+    <line x1="0" y1="-28" x2="0" y2="-32" stroke="#ffffff" stroke-width="2" transform="rotate(270)"/>
+  </g>
+</svg> 

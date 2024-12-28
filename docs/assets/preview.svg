@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="400" rx="12" fill="#1a1a1a"/>
+  
+  <!-- タスクバー -->
+  <rect y="340" width="800" height="60" fill="#2d2d2d"/>
+  
+  <!-- 時計部分 -->
+  <g transform="translate(680, 360)">
+    <!-- 時計背景 -->
+    <rect x="-60" y="-15" width="120" height="30" rx="6" fill="#3a3a3a"/>
+    
+    <!-- 時刻テキスト -->
+    <text x="0" y="5" font-family="Segoe UI" font-size="16" fill="white" text-anchor="middle">
+      21:00
+    </text>
+    
+    <!-- 日付テキスト -->
+    <text x="0" y="-5" font-family="Segoe UI" font-size="12" fill="#ffffffcc" text-anchor="middle">
+      2024/01/01
+    </text>
+  </g>
+  
+  <!-- 説明テキスト -->
+  <text x="400" y="180" font-family="Segoe UI" font-size="24" fill="white" text-anchor="middle">
+    モダンでスタイリッシュな時計表示
+  </text>
+  <text x="400" y="220" font-family="Segoe UI" font-size="16" fill="#ffffffcc" text-anchor="middle">
+    Windowsに自然に溶け込むデザイン
+  </text>
+</svg> 
